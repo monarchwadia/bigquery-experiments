@@ -1,0 +1,14 @@
+{
+  "name": "jeff-bigquery-experiments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:monarchwadia/bigquery-experiments.git",
+  "author": "Monarch Wadia <monarch@mintbean.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "GOOGLE_APPLICATION_CREDENTIALS=googleApplicationCredentials.json node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.12.0"
+  }
+}
