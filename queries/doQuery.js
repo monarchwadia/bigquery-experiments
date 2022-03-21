@@ -1,5 +1,6 @@
 const {BigQuery} = require('@google-cloud/bigquery');
 
+// put this one inside /src/utils/doQuery.js or /lib
 module.exports = async function doQuery(queryString) {
   const bigquery = new BigQuery();
   

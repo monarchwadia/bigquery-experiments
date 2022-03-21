@@ -1,5 +1,9 @@
 const doQuery = require("./doQuery");
 
+// put this in /src/routes/api/queries/funding-table.js
+// do a fetch call for this funding-table through...
+// await fetch("/api/queries/funding-table")
+
 module.exports = async function fundingTableQuery() {
   // Do the query
   const rows = await doQuery(`
